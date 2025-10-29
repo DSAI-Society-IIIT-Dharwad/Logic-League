@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 # ===============================
 SUBREDDIT = "technology"    # Change to any subreddit (e.g., "worldnews", "datascience", etc.)
 TOTAL_POSTS = 500           # Total number of posts to fetch
-OUTPUT_FILE = f"reddit_data_{int(time.time())}.csv"  # Unique filename each run
+OUTPUT_FILE = f"reddit_data.csv"  # Unique filename each run
 MAX_RETRIES = 3             # Number of retries for failed requests
 RETRY_DELAY = 60            # Seconds to wait after rate limit
 
